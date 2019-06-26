@@ -19,9 +19,9 @@ namespace ProductManager.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var products = _context
+            /*var products = _context
                 .Product
-                .ToArray();
+                .ToArray();*/
 
             return Ok(products);
         }
