@@ -21,9 +21,11 @@ namespace ProductManager.Controllers
         {
             /*var products = _context
                 .Product
-                .ToArray();*/
+                .ToArray();
 
-            return Ok(products);
+            return Ok(products);*/
+            
+            return Ok("OK");
         }
 
         [HttpGet("{id}")]
